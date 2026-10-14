@@ -1,0 +1,1 @@
+var e={src:`/LivingSeriesWeb/_astro/passerby-left.BBLVBswW.webp`,width:230,height:935,format:`webp`},t={src:`/LivingSeriesWeb/_astro/passerby-right.oVwaYNVU.webp`,width:195,height:905,format:`webp`};export{e as n,t};
