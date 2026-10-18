@@ -1,0 +1,1 @@
+var e=`/LivingSeriesWeb/`,t=e.endsWith(`/`)?e.slice(0,-1):e;function n(e=`/`){if(typeof e!=`string`||e===``||/^([a-z][a-z0-9+.-]*:|\/\/|#)/i.test(e))return e;let n=e.startsWith(`/`)?e:`/${e}`;return t&&(n===t||n.startsWith(`${t}/`))?n:`${t}${n}`}export{n as t};
