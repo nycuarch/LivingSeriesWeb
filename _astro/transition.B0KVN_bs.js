@@ -1,0 +1,1 @@
+var e=`ex-nav`,t=null;function n(e){return t=e,()=>{t===e&&(t=null)}}function r(e){t?t(e):window.location.href=e}export{r as n,n as r,e as t};

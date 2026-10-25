@@ -1,0 +1,1 @@
+import{a as e}from"./site.D7aOIWSf.js";function t(t){let n=Number.isFinite(t)?t:0;return`${e.currency} ${n.toLocaleString(`en-US`)}`}function n(e,t=2){return String(e).padStart(t,`0`)}function r(e){let t=new Date(e);return Number.isNaN(t.getTime())?``:`${t.getFullYear()}.${n(t.getMonth()+1)}.${n(t.getDate())} ${n(t.getHours())}:${n(t.getMinutes())}`}export{t as n,n as r,r as t};
